@@ -106,13 +106,21 @@ lie:hover {
     justify-content: center;
 }
 
+.subtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 20px;
+    margin-bottom: 56px;
+}
+
 .information {
     text-align: center;
     gap: 100px;
     margin-bottom: 58px;
 }
 
-.dog, {
+.dog {
     width: 200px;
     height: 200px;
     margin-bottom: 55px;
@@ -129,7 +137,7 @@ lie:hover {
     font-size: 18px;
 }
 
-quote {
+.quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
