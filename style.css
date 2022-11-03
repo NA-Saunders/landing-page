@@ -53,3 +53,100 @@ lie:hover {
     margin-right: 200px;
     padding: 20px;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 60px;
+    max-width: 500px;
+}
+
+.sign-up, .altsign-up {
+    background: #3883F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 130px;
+    max-height: 35px;
+    transition-duration: 0.4s;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    border: none;
+    margin-top: 28px;
+}
+
+.altsign-up {
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.altsign-up:hover {
+    background-color: white;
+    color: #3883F6;
+}
+
+.dogs {
+    max-width: 500px;
+    max-height: 300px;
+    margin-right: 50px;
+}
+
+.subheader, .information {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    text-align: center;
+    gap: 100px;
+    margin-bottom: 58px;
+}
+
+.dogs, .text {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 55px;
+    transition: transform 0.2s;
+}
+
+.dogs:hover {
+    transform: scale(1.5);
+}
+
+.text {
+    font-size: 18px;
+}
+
+quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 800px;
+    margin-bottom: 38px;
+}
+
+.author {
+    margin-left: auto;
+    margin-right: 500px;
+    font-weight: bold;
+    font-size: 18px;
+}
