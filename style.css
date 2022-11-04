@@ -35,7 +35,21 @@ ul {
     font-weight: lighter;
 }
 
-lie:hover {
+li:hover {
+    color: hotpink;
+}
+
+a:link {
+    color: #F9FAF8;
+}
+a:active {
+    color: #3882F6;
+}
+a:visited {
+    color: #3882F6;
+}
+
+a:hover {
     color: hotpink;
 }
 
@@ -82,6 +96,10 @@ lie:hover {
     border: none;
     margin-top: 28px;
 }
+.sign-up:hover {
+    background-color: white;
+    color: #3882F6;
+}
 
 .altsign-up {
     border: 2px solid white;
@@ -89,7 +107,6 @@ lie:hover {
     margin-right: 50px;
     align-self: center;
 }
-
 .altsign-up:hover {
     background-color: white;
     color: #3883F6;
