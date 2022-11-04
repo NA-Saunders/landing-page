@@ -92,6 +92,12 @@ a:hover {
     flex-shrink: 0;
 }
 
+button:active {
+    box-shadow: 0 5px #E5E7EB;
+    color: hotpink;
+    transform: translateY(8px)
+}
+
 .sign-up {
     border: none;
     margin-top: 28px;
