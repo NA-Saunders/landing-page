@@ -94,7 +94,6 @@ a:hover {
 
 button:active {
     box-shadow: 0 5px #E5E7EB;
-    color: hotpink;
     transform: translateY(8px)
 }
 
@@ -146,7 +145,7 @@ button:active {
 .dog {
     width: 200px;
     height: 200px;
-    margin-bottom: 55px;
+    margin-bottom: 10px;
     transition: transform 0.2s;
 }
 
@@ -154,11 +153,17 @@ button:active {
     transform: scale(1.5);
 }
 
+.credit {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
 .text {
     width: 200px;
-    height: 200px;
+    height: 150px;
     font-size: 18px;
 }
+
 
 .quote {
     display: flex;
